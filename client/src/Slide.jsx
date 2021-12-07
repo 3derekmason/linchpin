@@ -7,7 +7,13 @@ import {
   CardContent,
 } from "@material-ui/core";
 
-const Slide = () => {
+const Slide = (props) => {
+  const { current } = props;
+  const { index } = props;
+
+  useEffect(() => {
+    console.log(props);
+  }, [current]);
   return (
     <Card id="slide">
       <CardHeader
@@ -16,7 +22,7 @@ const Slide = () => {
       >
         Are You Indispensable?
       </CardHeader>
-      <CardContent>Slide content will go here...</CardContent>
+      <CardContent>{props.current?.text}</CardContent>
     </Card>
   );
 };
