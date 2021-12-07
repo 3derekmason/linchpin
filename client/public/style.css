@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#app {
+  min-width: 800px;
+}
+
+#canvas {
+  min-height: 50vh;
+  background: #fff8e1;
+}
