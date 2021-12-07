@@ -9,9 +9,23 @@ body {
 
 #app {
   min-width: 800px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #canvas {
-  min-height: 50vh;
+  min-height: 66vh;
+  width: 100%;
   background: #fff8e1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#slide {
+  width: 66%;
+  min-height: 240px;
+  background-color: #ffe57f;
 }
