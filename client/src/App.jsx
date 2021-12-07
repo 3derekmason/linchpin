@@ -5,11 +5,13 @@ import { Container, Card } from "@material-ui/core";
 const App = () => {
   return (
     <Container>
-      <Appbar className="mui--text-headline">
-        Lightning Prezzy by Derek Mason
+      <Appbar className="mui--text-headline" style={{ background: "#FF6F00" }}>
+        Lightning Prezzy
       </Appbar>
       <Card>
-        <div className="mui--text-display3">Are you indispensable?</div>
+        <div className="mui--text-display3" style={{ color: "#FFAB00" }}>
+          Are you indispensable?
+        </div>
       </Card>
     </Container>
   );

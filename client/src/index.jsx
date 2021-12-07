@@ -7,10 +7,10 @@ import App from "./app.jsx";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#00BCD4", // a cyan color
+      main: "#FF6F00",
     },
     secondary: {
-      main: "#18FFFF", // brighter cyan color
+      main: "#FFAB00",
     },
   },
 });
