@@ -19,14 +19,21 @@ const Canvas = () => {
   return (
     <Container>
       <Paper elevation={8} id="canvas">
-        <NavigateBeforeIcon id="before" />
+        <NavigateBeforeIcon
+          id="before"
+          onClick={(e) => {
+            e.preventDefault();
+            setCurrentSlide(SlideLibrary[currentIndex - 1]);
+            setCurrentIndex(currentIndex - 1);
+          }}
+        />
         <Slide current={currentSlide} index={currentIndex} />
         <NavigateNextIcon
           id="next"
           onClick={(e) => {
             e.preventDefault();
+            setCurrentSlide(SlideLibrary[currentIndex + 1]);
             setCurrentIndex(currentIndex + 1);
-            setCurrentSlide(SlideLibrary[currentIndex]);
           }}
         />
       </Paper>

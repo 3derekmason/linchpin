@@ -9,11 +9,8 @@ import {
 
 const Slide = (props) => {
   const { current } = props;
-  const { index } = props;
 
-  useEffect(() => {
-    console.log(props);
-  }, [current]);
+  useEffect(() => {}, [current]);
   return (
     <Card id="slide">
       <CardHeader

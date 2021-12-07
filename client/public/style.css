@@ -16,6 +16,7 @@ body {
 }
 
 #canvas {
+  position: relative;
   min-height: 66vh;
   width: 100%;
   background: #fff8e1;
@@ -28,4 +29,21 @@ body {
   width: 66%;
   min-height: 240px;
   background-color: #ffe57f;
+}
+
+#before,
+#next {
+  border-radius: 50%;
+  color: #ffd740;
+  transition: 0.5s;
+}
+#before:hover {
+  cursor: pointer;
+  color: #ffc400;
+  transition: 0.5s;
+}
+#next:hover {
+  cursor: pointer;
+  color: #ffc400;
+  transition: 0.5s;
 }
