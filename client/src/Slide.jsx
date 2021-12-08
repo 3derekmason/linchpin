@@ -9,16 +9,22 @@ import {
 
 const Slide = (props) => {
   const { current } = props;
+  const [section, setSection] = useState();
+  const sections = [
+    "Are you Indispensable?",
+    "Part 1: Give your work your all and be insdispensable.",
+    "Part 2: Fear, resistance, and the Lizard Brain",
+  ];
 
-  useEffect(() => {}, [current]);
+  useEffect(() => {
+    if (current?.section === "") {
+      setSection("");
+    }
+    setSection(sections[current?.section]);
+  }, [current]);
   return (
     <Card id="slide">
-      <CardHeader
-        className="mui--text-header"
-        style={{ background: "#FFC107" }}
-      >
-        Are You Indispensable?
-      </CardHeader>
+      <div className="mui--text-header">{section}</div>
       <CardContent>{props.current?.text}</CardContent>
     </Card>
   );

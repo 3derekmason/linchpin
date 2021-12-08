@@ -34,16 +34,16 @@ body {
 #before,
 #next {
   border-radius: 50%;
-  color: #ffd740;
+  color: #ffa000;
   transition: 0.5s;
 }
 #before:hover {
   cursor: pointer;
-  color: #ffc400;
+  color: #ff6f00;
   transition: 0.5s;
 }
 #next:hover {
   cursor: pointer;
-  color: #ffc400;
+  color: #ff6f00;
   transition: 0.5s;
 }
