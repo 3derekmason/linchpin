@@ -25,10 +25,10 @@ const Slide = (props) => {
   }, [current]);
   return (
     <Card id="slide">
-      <div className="mui--text-headline" id="slideHeader">
+      <div className="mui--text-subhead" id="slideHeader">
         {section}
       </div>
-      <CardContent className="mui--text-subhead content">
+      <CardContent className="mui--text-display1" id="content">
         {props.current?.text}
       </CardContent>
     </Card>
