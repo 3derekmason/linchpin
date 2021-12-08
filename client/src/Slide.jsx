@@ -14,6 +14,7 @@ const Slide = (props) => {
     "Are you Indispensable?",
     "Part 1: Give your work your all and be insdispensable.",
     "Part 2: Fear, resistance, and the Lizard Brain",
+    "Part 3: Give gifts",
   ];
 
   useEffect(() => {
