@@ -4,7 +4,6 @@ import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
 import Slide from "./Slide.jsx";
 import SlideLibrary from "./SlideLibrary.js";
-import { StayCurrentLandscapeOutlined } from "@material-ui/icons";
 const Canvas = () => {
   const [currentSlide, setCurrentSlide] = useState();
   const [currentIndex, setCurrentIndex] = useState(0);
