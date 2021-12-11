@@ -10,7 +10,8 @@
 
 ## **Are you indispensable?**
 
-> How do you become indispensable? What does that even mean?
+### _How do you become indispensable? What does that even mean?_
+
 > <br>
 
 ## Part One: _give your work your all and be indispensable_
@@ -19,7 +20,7 @@
 
 A linchpin doesn’t just fit in. Of course there are still dances we will have to do to please people sometimes, but the real opportunity to be indispensable comes after you’ve gotten the job…
 
-> _You are not your resume, you are your work._
+### _You are not your resume, you are your work._
 
 > A Linchpin is enlightened enough to see the world as it is, to understand that this angry customer is not about me, that this change in government policy is not a personal attack, that this job is not guaranteed for life.
 
@@ -80,7 +81,7 @@ Often times, the resistance will help you find the thing you most need to do bec
 
 As we seek to become indispensable, a question worth asking:
 
-> “Where do you put the fear?”
+### “Where do you put the fear?”
 
 What separates a linchpin from an ordinary person is the answer to this question. Most of us feel fear and react to it. The linchpin feels that fear, acknowledges it, then proceeds.
 
