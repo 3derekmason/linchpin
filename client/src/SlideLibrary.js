@@ -1,5 +1,13 @@
 const SlideLibrary = [
   {
+    section: "",
+    text: "Linchpin Prezzy | by Seth Godin and Derek Mason",
+  },
+  {
+    section: "",
+    text: "Are You Indispensable?",
+  },
+  {
     section: 0,
     text: "No one is a genius all the time, but all of us are geniuses sometimes.",
   },
@@ -13,11 +21,11 @@ const SlideLibrary = [
   },
   {
     section: 1,
-    text: "Never say no...",
+    text: "Never say no.",
   },
   {
     section: 1,
-    text: "Always say no...",
+    text: "Always say no.",
   },
   {
     section: 1,
@@ -58,6 +66,10 @@ const SlideLibrary = [
   {
     section: "",
     text: "Do you have any bad ideas?",
+  },
+  {
+    section: "",
+    text: "Questions / Discussion",
   },
 ];
 
