@@ -4,7 +4,9 @@
   "description": "Are you indispensable?",
   "main": "index.js",
   "scripts": {
-    "pack": "webpack --config ./webpack.config.js --mode development -w"
+    "build": "webpack --config ./webpack.config.js --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d client/public"
   },
   "author": "Derek Mason",
   "license": "ISC",

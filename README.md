@@ -1,18 +1,18 @@
 # Linchpin
 
-<img src="./client/public/linchpin.jpeg" width="600">
+<div align="center>
 
----
-
-### Lightning Prezzy by Derek Mason
+<img src="https://miro.medium.com/max/1400/0*uXkAm4uc30bnVdda" width="600">
 
 ---
 
 ## **Are you indispensable?**
 
+</div>
+
 ### _How do you become indispensable? What does that even mean?_
 
-> <br>
+<br>
 
 ## Part One: _give your work your all and be indispensable_
 
